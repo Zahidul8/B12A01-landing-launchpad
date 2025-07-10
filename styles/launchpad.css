@@ -67,4 +67,38 @@ header {
 .stay-focus-btn {
     margin-top: 37px;
 }
+/* main section style start */
 
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+main section {
+    margin-top: 116px;
+}
+
+/* action section style start */
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+
+.action-title {
+    font-size: 42px ;
+    font-weight: 700;
+}
+
+.action-description {
+    font-size: 24px;
+    color:rgba(37, 36, 50, .50);
+    margin: 23px 0;
+}
+
+.action-section img {
+    max-width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}

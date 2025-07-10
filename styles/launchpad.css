@@ -102,3 +102,38 @@ main section {
     height: 328px;
     border-radius: 48px;
 }
+
+/* productive user section start */
+
+.productive-user {
+background-color: rgba(77, 71, 255, 0.1);
+border-radius: 24px;
+padding: 42px 150px;
+}
+
+.user-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+}
+
+.user-quantity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+          font-family: "Inter", sans-serif;
+
+}
+
+.quantity-number {
+    color: #4E47FF;
+      font-size: 80px;
+      font-weight: 700;
+}
+
+.quantity-description {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    text-align: center;
+}

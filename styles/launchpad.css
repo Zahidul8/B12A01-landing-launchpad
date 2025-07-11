@@ -32,7 +32,7 @@ body {
 }
 
 .primary-btn:hover {
-    background-color: white;
+    background-color: transparent;
     border: 2px solid #4E47FF ;
     color: #4E47FF;
 }
@@ -278,6 +278,9 @@ form ::placeholder {
 
 .touch-button {
     width: 100%;
+}
+.touch-button:hover {
+    background-color: white;
 }
 
 /* footer section start  */

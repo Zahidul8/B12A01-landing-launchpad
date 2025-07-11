@@ -25,7 +25,7 @@ body {
     border-radius: 10px;
     padding: 12px 36px;
     border: 2px solid transparent;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease-in;
@@ -263,7 +263,7 @@ textarea {
     width: 100%;
     padding: 20px 32px;
     border-radius: 10px;
-    border: 1px solid #D6DDED;
+    border: 2px solid #D6DDED;
     margin: 10px 0 20px;
     font-size: 20px;
     resize: none;
@@ -323,4 +323,12 @@ footer ul li {
 ul li a {
     text-decoration: none;
     color: #8987A1;
+    padding-bottom: 5px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in;
+
+}
+
+ul li a:hover {
+    border-bottom: 1px solid #8987A1;
 }
